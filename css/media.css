@@ -44,7 +44,7 @@
                             }
                         }
                         
-                        @media (max-width:393px) {
+                        @media (max-width:500px) {
                             .container {
                                 background: url('../Images/bg.jpg') no-repeat center center/cover;
                                 width: 100%;
