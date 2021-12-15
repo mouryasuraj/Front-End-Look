@@ -44,14 +44,11 @@
                             }
                         }
                         
-                        @media (max-width:500px) {
+                        @media (max-width:393px) {
                             .container {
-                                background-image: url('../Images/bg.jpg');
-                                width: auto;
+                                background: url('../Images/bg.jpg') no-repeat center center/cover;
+                                width: 100%;
                                 height: 100%;
-                                background-position: center;
-                                background-repeat: no-repeat;
-                                background-size: cover;
                             }
                             .menu {
                                 display: none;
@@ -137,7 +134,7 @@
                                 margin-left: -22px;
                             }
                             #check:checked~.menu {
-                                right: 0px;
+                                right: 60px;
                             }
                             #check:checked~label #btn {
                                 display: none;
